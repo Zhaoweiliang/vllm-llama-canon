@@ -5,7 +5,7 @@ reports the max absolute difference and top-k argmax agreement.
 
 Run:
     conda activate vllm
-    CUDA_VISIBLE_DEVICES=4 python scripts/vllm_llama_canon/test_canon_parity.py
+    CUDA_VISIBLE_DEVICES=4 python test_canon_parity.py
 """
 
 from __future__ import annotations

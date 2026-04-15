@@ -3,5 +3,5 @@ def register():
 
     ModelRegistry.register_model(
         "LlamaCanonForCausalLM",
-        "vllm_llama_canon.modeling_llama_canon:LlamaCanonForCausalLM",
+        "vllm_canon.modeling_llama_canon:LlamaCanonForCausalLM",
     )

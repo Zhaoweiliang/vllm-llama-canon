@@ -1,4 +1,4 @@
-# vllm-llama-canon
+# vllm-canon
 
 An [out-of-tree vLLM plugin](https://docs.vllm.ai/en/latest/design/plugin_system.html)
 that adds support for the `LlamaCanonForCausalLM` architecture — the
@@ -16,7 +16,7 @@ default) inserted at up to four positions in each decoder block:
 ## Install
 
 ```bash
-pip install vllm-llama-canon
+pip install vllm-canon
 ```
 
 After install, vLLM auto-discovers the plugin via its

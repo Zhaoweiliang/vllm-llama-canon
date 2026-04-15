@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vllm-llama-canon"
+name = "vllm-canon"
 version = "0.1.0"
-description = "vLLM plugin: out-of-tree registration of LlamaCanonForCausalLM (canon layers from PhysicsLM4)"
+description = "vLLM plugin: out-of-tree registration of canon-layer architectures (e.g. LlamaCanonForCausalLM from PhysicsLM4)"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
@@ -30,13 +30,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Zhaoweiliang/vllm-llama-canon"
-Issues = "https://github.com/Zhaoweiliang/vllm-llama-canon/issues"
-Source = "https://github.com/Zhaoweiliang/vllm-llama-canon"
+Homepage = "https://github.com/Zhaoweiliang/vllm-canon"
+Issues = "https://github.com/Zhaoweiliang/vllm-canon/issues"
+Source = "https://github.com/Zhaoweiliang/vllm-canon"
 
 [project.entry-points."vllm.general_plugins"]
-register_llama_canon = "vllm_llama_canon:register"
+register_canon = "vllm_canon:register"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["vllm_llama_canon*"]
+include = ["vllm_canon*"]

@@ -2,7 +2,7 @@
 
 Run:
     conda activate vllm
-    CUDA_VISIBLE_DEVICES=4 python scripts/vllm_llama_canon/test_canon_vllm.py
+    CUDA_VISIBLE_DEVICES=4 python test_canon_vllm.py
 """
 
 import os
